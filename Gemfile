@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.3'
 ruby '2.0.0'
 
+gem 'autotest'
+
 # Use sqlite3 as the database for Active Record
 group :development do
 	gem 'sqlite3', '1.3.8'
@@ -11,8 +13,7 @@ group :development do
 end
 
 group :test do
-	gem 'rspec', '~>3.0.0.beta'
-	gem 'autotest'
+	gem 'rspec', '~>3.0.0.beta'	
 end
 
 group :production do
