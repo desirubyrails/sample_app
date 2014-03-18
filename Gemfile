@@ -5,14 +5,18 @@ gem 'rails', '4.0.3'
 ruby '2.0.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-
 group :development do
+	gem 'sqlite3', '1.3.8'
 	gem 'rspec-rails', '~>3.0.0.beta' 
 end
 
 group :test do
 	gem 'rspec', '~>3.0.0.beta'
+end
+
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
 end
 
 # Use SCSS for stylesheets
