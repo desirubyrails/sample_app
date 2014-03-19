@@ -9,6 +9,11 @@ describe PagesController do
       expect(response).to be_success
     end
 
+	it "should have a non-blank body" do
+		get "home"
+		response.body.should_not =~ /<body>\s*<\/body>/
+	end
+	
 	end
 
 
