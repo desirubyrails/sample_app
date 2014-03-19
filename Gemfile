@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-require 'autotest'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 ruby '2.0.0'
