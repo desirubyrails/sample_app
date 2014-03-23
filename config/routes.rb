@@ -1,6 +1,6 @@
 SampleApp::Application.routes.draw do
 
-  get "users/new"
+  resources :users
   root 'pages#home'
   
  # match '/home' => 'pages#home', :via => [:get]
