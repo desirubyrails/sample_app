@@ -14,6 +14,7 @@ end
 
 group :test do
 	gem 'rspec', '~>3.0.0.beta'	
+	gem 'factory_girl_rails', '1.0'
 end
 
 group :production do
