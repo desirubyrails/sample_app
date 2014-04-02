@@ -4,8 +4,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.3'
 ruby '2.0.0'
 
-gem 'autotest'
+#gem "autotest", "~> 4.4.1"
+#gem "ZenTest", "~> 4.9.5"
+#gem "autotest-rails", "~> 4.2.1"
 gem 'gravatar_image_tag', '0.1.0'
+
 
 # Use sqlite3 as the database for Active Record
 group :development do
