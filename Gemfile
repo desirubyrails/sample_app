@@ -8,17 +8,17 @@ ruby '2.0.0'
 #gem "ZenTest", "~> 4.9.5"
 #gem "autotest-rails", "~> 4.2.1"
 gem 'gravatar_image_tag', '0.1.0'
-
+gem 'capybara', '2.2.0'
 
 # Use sqlite3 as the database for Active Record
 group :development do
 	gem 'sqlite3', '1.3.8'
-	gem 'rspec-rails', '~>3.0.0.beta' 	
+	gem 'rspec-rails', '~>3.0.0.beta' 		
 end
 
 group :test do
 	gem 'rspec', '~>3.0.0.beta'	
-	gem 'factory_girl_rails', '1.0'
+	gem 'factory_girl_rails', '1.0'	
 end
 
 group :production do
